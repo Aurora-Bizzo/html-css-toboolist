@@ -2,15 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(238, 235, 235);
     font-family: Arial;
+}
+
+body, hr{
+    background-color: rgb(241, 245, 247);
 }
 
 /*header*/
 
 #Title-background {
-    height: 90px;
+    padding: 10px;
     background-color: white;
+    line-height: 30px;
+}
+
+h1, #Logo {
+    vertical-align: middle;
 }
 
 .Title {
@@ -25,9 +33,16 @@
 /*main*/
 .container {
     width: 75%;
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: white;
+    padding: 20px 50px;
 }
 
-#Buttons {
+.buttons {
+    width: 100px;
+    height: 30px;
+}
+
+h3, li {
+    margin: 40px;
 }
