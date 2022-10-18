@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(238, 235, 235);
+    font-family: Arial;
+}
+
+/*header*/
+
+#Title-background {
+    height: 90px;
+    background-color: white;
+}
+
+.Title {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+/*main*/
+.container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#Buttons {
+
+}
